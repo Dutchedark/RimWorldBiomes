@@ -98,15 +98,28 @@
   </HediffDef>
 
   <ThoughtDef>
-    <defName>BluebellCutsHigh</defName>
+    <defName>BluebellCutsGoodHigh</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>BluebellCutsHigh</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
         <label>shroom high</label>
-        <description>SHROOOOOOOOOOOOOOOOOMS</description>
-        <baseMoodEffect>5</baseMoodEffect>
+        <description>Had some epic hallucinations</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>BluebellCutsBadHigh</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>BluebellCutsHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Bad Trip</label>
+        <description>Had some horrifying hallucinations</description>
+        <baseMoodEffect>-15</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
